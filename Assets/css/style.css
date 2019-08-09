@@ -3,6 +3,28 @@
     color: white;
 }
 
+#jumbotwo {
+    background-color: rgb(44, 44, 44) !important;
+    color: white;
+}
+
 .inpt {
-    border: 
+    border-radius: 25px;
+    border: inset;
+    width: 350px;
+}
+
+.inpt2 {
+    border-radius: 25px;
+    border: inset;
+    width: 110px
+}
+
+input:focus {
+    outline:none;
+}
+
+.btn.btn-primary.btn-lg.btn-block {
+    background-color: rgba(85, 84, 84, 0.568) !important;
+    border-color: rgb(9, 255, 0) !important;
 }

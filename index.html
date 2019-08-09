@@ -1,18 +1,11 @@
 <!DOCTYPE html>
 <html lang="en-us">
-
 <head>
-
     <meta charset="UFT-8">
     <title>Train Scheduler.</title>
     <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 </head>
 
 <body>
@@ -52,28 +45,47 @@
                         <td>ex</td>
                         <td>ex</td>
                     </tr>
+                    <tr>
+                        <th scope="row">4</th>
+                        <td>ex</td>
+                        <td>ex</td>
+                        <td>ex</td>
+                        <td>ex</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">5</th>
+                        <td>ex</td>
+                        <td>ex</td>
+                        <td>ex</td>
+                        <td>ex</td>
+                    </tr>
+                    <tr>
+                    <th scope="row">6</th>
+                        <td>ex</td>
+                        <td>ex</td>
+                        <td>ex</td>
+                        <td>ex</td>
+                    </tr>
             </table>
             </tbody>
         </p>
-        <hr class="my-4">
-        <p>Add A Train</p>
-
-        <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
     </div>
-    <div class="jumbotron">
+    <div id="jumbotwo" class="jumbotron">
         <h1 class="display-4">Add a train!</h1>
         <hr class="my-4">
     <form>
         <p>Train Name:</p>
-        <input class="inpt" type="text">
+        <input class="inpt" maxlength="35" type="text" style="background-color: #454d55; color:white;">
         <p>Destination:</p>
-        <input class="inpt" type="text">
+        <input class="inpt" maxlength="35" type="text" style="background-color: #212529; color:white;">
         <p>First Train Time (HH:mm) Military time:</p>
-        <input class="inpt" type="number">
+        <input class="inpt2"  value="00:00" type="time" style="background-color: #454d55; color:white;">
         <p>Frequency (min):</p>
-        <input class="inpt" type="number">
+        <input class="inpt2" min="0" type="number" style="background-color: #212529; color:white;">
     </form>
-    </div>
+    <hr>
+    <button type="submit" formmethod="GET" class="btn btn-primary btn-lg btn-block">Submit!</button>
+</div>
 
 
 </body>
