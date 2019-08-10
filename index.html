@@ -83,10 +83,13 @@
     <form>
         <p>Train Name:</p>
         <input class="inpt" maxlength="35" type="text" style="background-color: #454d55; color:white;">
+        <hr>
         <p>Destination:</p>
         <input class="inpt" maxlength="35" type="text" style="background-color: #212529; color:white;">
+        <hr>
         <p>First Train Time (HH:mm) Military time:</p>
         <input class="inpt2"  value="00:00" type="time" style="background-color: #454d55; color:white;">
+        <hr>
         <p>Frequency (min):</p>
         <input class="inpt2" min="0" type="number" style="background-color: #212529; color:white;">
     </form>
@@ -97,18 +100,4 @@
 
 </body>
 <script src="Assets/Javascript/logic.js"></script>
-<script>
-// Your web app's Firebase configuration
- var firebaseConfig = {
-  apiKey: "AIzaSyCGV5nd421AXKXz-sXEd4l1XoEOCbk28Hw",
-  authDomain: "train-scheduler-3b693.firebaseapp.com",
-  databaseURL: "https://train-scheduler-3b693.firebaseio.com",
-  projectId: "train-scheduler-3b693",
-  storageBucket: "",
-  messagingSenderId: "407548590888",
-  appId: "1:407548590888:web:721fee0adcea1563"
-};
-    // Initialize Firebase
-    firebase.initializeApp(firebaseConfig);
-  </script>
 </html>
