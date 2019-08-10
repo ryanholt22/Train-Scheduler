@@ -4,8 +4,15 @@
     <meta charset="UFT-8">
     <title>Train Scheduler.</title>
     <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+    <!--Css Link-->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!--Bootstrap Link-->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <!--Jquery Link-->
+    <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
+    <!--Moment.js Link-->
+    <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
+    <!--Firebase Link-->
 </head>
 
 <body>
@@ -90,5 +97,18 @@
 
 </body>
 <script src="Assets/Javascript/logic.js"></script>
-
+<script>
+// Your web app's Firebase configuration
+ var firebaseConfig = {
+  apiKey: "AIzaSyCGV5nd421AXKXz-sXEd4l1XoEOCbk28Hw",
+  authDomain: "train-scheduler-3b693.firebaseapp.com",
+  databaseURL: "https://train-scheduler-3b693.firebaseio.com",
+  projectId: "train-scheduler-3b693",
+  storageBucket: "",
+  messagingSenderId: "407548590888",
+  appId: "1:407548590888:web:721fee0adcea1563"
+};
+    // Initialize Firebase
+    firebase.initializeApp(firebaseConfig);
+  </script>
 </html>
