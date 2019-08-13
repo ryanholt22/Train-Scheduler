@@ -13,6 +13,7 @@
     <!--Moment.js Link-->
     <script src="https://www.gstatic.com/firebasejs/6.3.5/firebase-app.js"></script>
     <!--Firebase Link-->
+    <script src="https://www.gstatic.com/firebasejs/6.3.4/firebase-database.js"></script>
 </head>
 
 <body>
@@ -32,46 +33,53 @@
                 </thead>
                 <tbody>
                     <tr>
-                        <th scope="row">1</th>
-                        <td>ex</td>
-                        <td>ex</td>
-                        <td>ex</td>
-                        <td>ex</td>
+                        <th scope="row">Trenton Express</th>
+                        <td>Trenton</td>
+                        <td>25</td>
+                        <td>05:35PM</td>
+                        <td>10</td>
                     </tr>
                     <tr>
-                        <th scope="row">2</th>
-                        <td>ex</td>
-                        <td>ex</td>
-                        <td>ex</td>
-                        <td>ex</td>
+                        <th scope="row">Oregon Trail</th>
+                        <td>Salem, Oregon</td>
+                        <td>3600</td>
+                        <td>01:39PM</td>
+                        <td>1154</td>
                     </tr>
                     <tr>
-                        <th scope="row">3</th>
-                        <td>ex</td>
-                        <td>ex</td>
-                        <td>ex</td>
-                        <td>ex</td>
+                        <th scope="row">Midnight Carriage</th>
+                        <td>Philedelphia</td>
+                        <td>15</td>
+                        <td>05:35PM</td>
+                        <td>10</td>
                     </tr>
                     <tr>
-                        <th scope="row">4</th>
-                        <td>ex</td>
-                        <td>ex</td>
-                        <td>ex</td>
-                        <td>ex</td>
+                        <th scope="row">Sing Sing Caravan</th>
+                        <td>Atlanta</td>
+                        <td>45</td>
+                        <td>05:53PM</td>
+                        <td>28</td>
                     </tr>
                     <tr>
-                    <th scope="row">5</th>
-                        <td>ex</td>
-                        <td>ex</td>
-                        <td>ex</td>
-                        <td>ex</td>
+                    <th scope="row">Boston Bus</th>
+                        <td>Boston</td>
+                        <td>65</td>
+                        <td>05:50PM</td>
+                        <td>25</td>
                     </tr>
                     <tr>
-                    <th scope="row">6</th>
-                        <td>ex</td>
-                        <td>ex</td>
-                        <td>ex</td>
-                        <td>ex</td>
+                    <th scope="row">California Caravan</th>
+                        <td>San Francisco</td>
+                        <td>6000</td>
+                        <td>01:25AM</td>
+                        <td>4740</td>
+                    </tr>
+                    <tr>
+                    <th scope="row" id="tName"></th>
+                    <td id="dest"></td>
+                    <td id="freq"></td>
+                    <td id="tt"></td>
+                    <td id="ma"></td>
                     </tr>
             </table>
             </tbody>
@@ -82,22 +90,21 @@
         <hr class="my-4">
     <form>
         <p>Train Name:</p>
-        <input class="inpt" maxlength="35" type="text" style="background-color: #454d55; color:white;">
+        <input class="inpt1" maxlength="35" type="text" style="background-color: #454d55; color:white;">
         <hr>
         <p>Destination:</p>
-        <input class="inpt" maxlength="35" type="text" style="background-color: #212529; color:white;">
+        <input class="inpt2" maxlength="35" type="text" style="background-color: #212529; color:white;">
         <hr>
         <p>First Train Time (HH:mm) Military time:</p>
-        <input class="inpt2"  value="00:00" type="time" style="background-color: #454d55; color:white;">
+        <input class="inpt3"  value="00:00" type="time" style="background-color: #454d55; color:white;">
         <hr>
         <p>Frequency (min):</p>
-        <input class="inpt2" min="0" type="number" style="background-color: #212529; color:white;">
+        <input class="inpt4" min="0" type="number" style="background-color: #212529; color:white;">
     </form>
     <hr>
     <button type="submit" formmethod="GET" class="btn btn-primary btn-lg btn-block">Submit!</button>
 </div>
-
-
 </body>
+
 <script src="Assets/Javascript/logic.js"></script>
 </html>
