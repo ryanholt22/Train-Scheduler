@@ -8,25 +8,25 @@
     color: white;
 }
 
-.inpt1 {
+#inpt1 {
     border-radius: 25px;
     border: inset;
     width: 350px;
 }
 
-.inpt2 {
+#inpt2 {
     border-radius: 25px;
     border: inset;
     width: 350px;
 }
 
-.inpt3 {
+#inpt3 {
     border-radius: 25px;
     border: inset;
     width: 110px
 }
 
-.inpt4 {
+#inpt4 {
     border-radius: 25px;
     border: inset;
     width: 110px
