@@ -1,3 +1,10 @@
+#currentTime {
+    background-color: rgb(44, 44, 44);
+    color:white;
+    position: fixed;
+    height: 37px;
+}
+
 #jumboone {
     background-color: rgb(44, 44, 44) !important;
     color: white;

@@ -41,5 +41,8 @@ $("button").on("click", function input() {
   var inpt3 = document.getElementById("inpt3");
   var inpt4 = document.getElementById("inpt4");
   console.log(inpt1, inpt2, inpt3, inpt4);
+  document.getElementById("btn").addEventListener("click", database);
+
 });
 
+$("#currentTime").append(currentTime.format("LLLL"));
